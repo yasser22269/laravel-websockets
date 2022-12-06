@@ -37,7 +37,7 @@ class NewMessage implements ShouldBroadcast
     }
     public function broadcastAs()
     {
-        return $this->message;
+        return 'EventName';
     }
     public function broadcastWith()
     {
